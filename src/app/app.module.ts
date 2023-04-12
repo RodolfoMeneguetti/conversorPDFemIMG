@@ -3,20 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ConverterPDFComponent } from './converter-pdf/converter-pdf.component';
-import { PdfToImageComponentComponent } from './pdf-to-image-component/pdf-to-image-component.component';
+import { PdfToImageComponent } from './pdf-to-image/pdf-to-image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ConverterPDFComponent,
-    PdfToImageComponentComponent
+    PdfToImageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, PdfToImageComponent]
 })
 export class AppModule { }

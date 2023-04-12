@@ -20,6 +20,7 @@
     "@angular/router": "^15.2.0",
     "pdf-image": "^2.0.0",
     "pdf-img-convert": "^1.2.0",
+    "pdfjs-dist": "^3.5.141",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
